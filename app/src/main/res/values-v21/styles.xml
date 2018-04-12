@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="questionStyle">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@color/secondaryColor</item>
+        <item name="android:buttonTint">@color/primaryTextColor</item>
+    </style>
+</resources>

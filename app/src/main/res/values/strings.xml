@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Study Break</string>
+    <string name="hint_text">Enter Name to Continue</string>
+    <string name="button0">Next</string>
+    <string name="intro">Hungry? Need a Break?</string>
+    <string name="greeting">Hello, %s! What are you craving?</string>
+    <string name="question1a">Food</string>
+    <string name="question1b">Drink</string>
+    <string name="question2">What flavors will hit the spot?</string>
+    <string name="question2a">Sweet</string>
+    <string name="question2b">Salty</string>
+    <string name="question2c">Spicy</string>
+    <string name="question3">Where are you going to eat?</string>
+    <string name="question3a">Carry Out</string>
+    <string name="question3b">Buffet</string>
+    <string name="question3c">Delivery</string>
+    <string name="question4">What type of meal?</string>
+    <string name="question4a">Breakfast</string>
+    <string name="question4b">Dinner</string>
+    <string name="question4c">Dessert</string>
+    <string name="question5">Any special cravings?</string>
+    <string name="question5a">Pizza</string>
+    <string name="question5b">Chinese</string>
+    <string name="question5c">Indian</string>
+    <string name="question6">What\'s the budget?</string>
+    <string name="question6a">Less than $10</string>
+    <string name="question6b">Budget, what budget?</string>
+    <string name="question7">Enter your City</string>
+    <string name="answer1a"> </string>
+    <string name="answer1b">Drink  </string>
+    <string name="answer2b">Fries  </string>
+    <string name="answer6a">Cheap </string>
+</resources>
