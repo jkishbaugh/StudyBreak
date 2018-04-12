@@ -54,39 +54,44 @@ public class MainActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (questionNumber == 0) {
-                    beginQuiz();
-                } else if (questionNumber == 1) {
-                    nextQuestion(question1, question2);
-                    question.setText(R.string.question2);
-                } else if (questionNumber == 2) {
-                    nextQuestion(question2, question3);
-                    question.setText(R.string.question3);
-                } else if (questionNumber == 3) {
-                    nextQuestion(question3, question4);
-                    question.setText(R.string.question4);
-                } else if (questionNumber == 4) {
-                    nextQuestion(question4, question5);
-                    question.setText(R.string.question5);
-                } else if (questionNumber == 5) {
-                    nextQuestion(question5, question6);
-                    question.setText(R.string.question6);
-                } else if (questionNumber == 6) {
-                    nextQuestion(question6, question7);
-                    question.setText(R.string.question7);
-                } else if (questionNumber == 7) {
-                    searchString = searchString + " in " + locationEntry.getText().toString();
-                    questionNumber++;
-                } else if (questionNumber == 8) {
-                    executeSearch();
-                }
+                screenInit();
             }
 
 
         });
     }
 
-
+    /*
+        method for initializing the screen
+     */
+    private void screenInit(){
+        if (questionNumber == 0) {
+            beginQuiz();
+        } else if (questionNumber == 1) {
+            nextQuestion(question1, question2);
+            question.setText(R.string.question2);
+        } else if (questionNumber == 2) {
+            nextQuestion(question2, question3);
+            question.setText(R.string.question3);
+        } else if (questionNumber == 3) {
+            nextQuestion(question3, question4);
+            question.setText(R.string.question4);
+        } else if (questionNumber == 4) {
+            nextQuestion(question4, question5);
+            question.setText(R.string.question5);
+        } else if (questionNumber == 5) {
+            nextQuestion(question5, question6);
+            question.setText(R.string.question6);
+        } else if (questionNumber == 6) {
+            nextQuestion(question6, question7);
+            question.setText(R.string.question7);
+        } else if (questionNumber == 7) {
+            searchString = searchString + " in " + locationEntry.getText().toString();
+            questionNumber++;
+        } else if (questionNumber == 8) {
+            executeSearch();
+        }
+    }
     /*
         method to set greeting after name entry
      */
